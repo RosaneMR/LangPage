@@ -1,0 +1,185 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+}
+
+.banner {
+    background: linear-gradient(90deg, #003366, #390452);
+    color: rgb(229, 229, 235);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url("img/fundo.jpg");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+.banner .logo img {
+    max-width: 250px;
+    margin-bottom: 15px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    color: #33A8DB;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+   
+}
+
+.banner p {
+    display: block;
+    color: #dfd8d8;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+p {
+    font-size: 1.0rem;
+    color: white;
+    text-align: center;
+    font-weight: 120;
+    text-shadow: 3px 2px #00008B;
+    box-sizing: border-box;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #00008B;
+}
+
+.banner button {
+    background-color: #340442;
+    color: rgb(251, 250, 255);
+    border: none;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #c074c0;
+}
+
+main {
+    padding: 40px 20px;
+    background: #a9a9d4;
+    background: #0c0c0d;
+    background: linear-gradient(90deg, #003366, #390452);
+}
+
+#course-content h2,
+#professional-challenges h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.modules-list {
+    margin-top: 20px;
+}
+
+#course-content .modules-list .module {
+    text-align: center;
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+.module {
+    background-color: #969dc5;
+    border-left: 5px solid #167be0;
+    padding: 8px;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#transform-world {
+    background-color: #990000;
+    /* Vermelho */
+    color: #e2e2e2;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 30px 10px;
+    margin: 30px 0;
+}
+
+#professional-challenges {
+    text-align: center;
+}
+
+#professional-challenges img {
+    max-width: 300px;
+    margin: 20px 0;
+}
+.btn {
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(67, 196, 35);
+    color: #191b19;
+    position: fixed;
+    right: 30px;
+    bottom: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zap-img {
+    width: 45px;
+    height: 45px;
+    display: flex;
+}
+
+footer {
+    background: #a9a9d4;
+    background: #0c0c0d;
+    background: linear-gradient(90deg, #003366, #390452);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffcccb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
